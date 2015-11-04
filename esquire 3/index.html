@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!-- Main container -->
+<html lang="ru">
+
+<!-- Head part. Basically, invisible, all the meta and tech info goes here -->
+<head>
+  <!-- character set -->
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+  <!-- Page title, appears on a browser tab and in search engine results -->
+  <title>Esquire November Issue 2015</title>
+
+  <!-- Investigate how this works -->
+  <!-- We've included styles directly  -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- What is this? -->
+
+  <!-- Contains meta words that describe your content best -->
+  <meta content="Key words">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="script/jquery.airport-1.1.source-1.js"></script>
+</head>
+
+<!-- Content part -->
+<body>
+  <div class="bgtexture">Fedya Nozdrin is a <span class='bgasterisk'>*</span>young designer from Moscow, Russia. A father, a husband, a bookworm and a digital designer, the young lad has still many things to unveil to the design <span class='bgasterisk'>**</span>loving community. Although he claims that the classical preparation in one of Moscow's most acclaimed poligraphy schools didn't do much for his further professional growth, the world sees it differently: Fedya might shudder at the single thought of drawing another Socrates head, but a lot of his knowledge in composition, light and mood originate in classical drawing and endless hours of observation (however tedious they seemed to be for the prodigious child). Furthermore, <span class='bgasterisk'>***</span> BHSAD's most prodigious student has grown on us for his wittiness and a slight fondness for procrastination, mixed with a great sense of style and a good feeling for type, color and composition. Esquire welcomes you to get acquainted with this character in a 10 pages feature in our November issue.</div>
+<div class="esquire">
+    <img src="img/esquire.png" alt:"Esquire logo" style="width:451px; height:115px;">
+  </div>
+<div class="fedya">
+    <img src="img/fedya_color.png" alt:"FedyaNozdrin" width:"449" height:"516"></div>
+<div class="fedyabw"><img src="img/fedya_bw.png" alt:"FedyaBW" width:"447" height:"516"></div>
+<div class="catchfrase"></div>
+  <div class="barcode">
+    <img src="img/barcode.png" alt:"Esquire logo" width:"77" height:"59"></div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.fedya').hover(function() { 
+        $('.fedyabw').css({'opacity': '0'}),
+        $(this).css({'opacity':'1'});
+    }, function(){
+        $('.fedyabw').css({'opacity': '1'}),
+        $(this).css({'opacity':'0'});
+    });
+});</script>
+<script type="text/javascript">
+  $('.catchfrase').airport([ 'young*', 'fresh**', 'love**', 'life***' ]);
+</script>
+
+<div class="catchfrase grey">fedya is -</div>
+
+</body>

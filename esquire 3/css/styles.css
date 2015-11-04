@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+html{ 
+  background: url("../img/bg1.jpg") no-repeat left center fixed; 
+}
+
+
+.catchfrase {
+	position: fixed;
+	display: block;
+	top: 197px;
+	left: 474px;
+	z-index: 2;
+	font-family: 'Raleway', sans-serif;
+	font-size: 5.4em;
+	color: #c0356d;
+	mix-blend-mode: multiply;
+	font-weight: 800;
+}
+
+.bgasterisk
+{font-weight: 800;
+color: #c0356d;}
+
+.bgtexture {
+	position: fixed;
+	display: block;
+	top: 2px;
+	left: 444px;
+	width: 517px;
+	z-index: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.6em;
+	color: #cccccc;
+	opacity: 0.7;
+	font-weight: 400;
+}
+
+.esquire {
+	position: fixed;
+	display: block;
+	left: 474px; 
+	top: 20px;
+	z-index: 3;
+	-webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+    transform: rotate(-1deg);
+}
+
+.fedya {
+	display: block;
+	position: fixed;
+	left: 482px;
+	top: 206px ; 
+	z-index: 10;
+	opacity: 0;
+}
+
+.grey {
+	top: 155px;
+	color: #99cccc;
+}
+
+.fedyabw {
+	display: block;
+	position: fixed;
+	left: 482px;
+	top: 206px ; 
+	z-index: 4;
+}
+
+
+.barcode {
+	display: block;
+	position: fixed;
+	left: 865px;
+	top: 645px ; 
+	z-index: 999;
+}
